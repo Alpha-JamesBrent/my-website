@@ -9,3 +9,8 @@ function showSection(sectionId) {
     selected.style.display = "block";
   }
 }
+
+// Show Summary by default
+document.addEventListener("DOMContentLoaded", () => {
+  showSection("summary");
+});
