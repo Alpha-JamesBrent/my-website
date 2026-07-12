@@ -1,9 +1,60 @@
-.dark-mode {
-  background: #1e1e1e;
-  color: #f4f4f4;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f9;
+  color: #333;
 }
 
-.dark-mode header,
-.dark-mode footer {
-  background: #111;
+header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background: #2c3e50;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #34495e;
+}
+
+.content {
+  display: none; /* hidden by default */
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.job {
+  background: #fff;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 5px;
+}
+
+footer {
+  background: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
