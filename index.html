@@ -2,71 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>James Brent L. Mañego - Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>James Brent L. Mañego - Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>James Brent L. Mañego</h1>
-    <p>Cybersecurity and Systems Engineer</p>
-    <p>📞 09984488894 | ✉️ jamesbrentlachica@yahoo.com.ph</p>
+    <p>Cybersecurity & Systems Engineer</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- Navigation links -->
-  <nav class="nav-links">
-    <span onclick="showSection('summary')">Summary</span> |
-    <span onclick="showSection('education')">Education</span> |
-    <span onclick="showSection('certifications')">Certifications</span> |
-    <span onclick="showSection('experience')">Work Experience</span> |
-    <span onclick="showSection('projects')">Home Lab Projects</span>
-  </nav>
-
-  <!-- Sections -->
-  <section id="summary" class="content">
-    <h2>Summary of Qualifications</h2>
-    <p>Cybersecurity and Systems Engineer with 7+ years of experience in IT operations, incident response, and infrastructure security...</p>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Cybersecurity and Systems Engineer with 7+ years of experience in IT operations, incident response, and infrastructure security. Skilled in monitoring, detection, and remediation across enterprise and MSP environments.</p>
   </section>
 
-  <section id="education" class="content">
-    <h2>Education</h2>
-    <p>Bachelor of Science in Computer Science, STI College Fairview (2012–2016)</p>
-  </section>
-
-  <section id="certifications" class="content">
-    <h2>Certifications</h2>
-    <ul>
-      <li>Multicloud Network Associate – Aviatrix (2025–2028)</li>
-      <li>CCNA – in progress</li>
-    </ul>
-  </section>
-
-  <section id="experience" class="content">
+  <section id="experience">
     <h2>Work Experience</h2>
-    <div class="job">
-      <h3>IT BY DESIGN (Iron Edge), Taguig City</h3>
-      <p><strong>Advanced System Engineer</strong> (Nov 2025 – Present)</p>
-      <p>Achievements: Customer Success Champion. Delivered Tier 2 escalated support, administered AD, Entra ID, Microsoft 365 security, configured SonicWall firewalls, implemented MFA & Conditional Access, and conducted patch management and disaster recovery.</p>
+    <div class="card">
+      <h3>Advanced System Engineer - IT BY DESIGN</h3>
+      <p>Delivered Tier 2 escalated support in MSP setting, focusing on security incidents and infrastructure monitoring.</p>
+      <button class="toggle">Read More</button>
+      <div class="hidden">
+        <ul>
+          <li>Administered AD, Entra ID, Microsoft 365 security policies</li>
+          <li>Configured SonicWall firewalls, routers, and switches</li>
+          <li>Implemented MFA and Conditional Access policies</li>
+        </ul>
+      </div>
     </div>
-    <div class="job">
-      <h3>WIPRO Limited (Adient), Quezon City</h3>
-      <p><strong>Service Desk Analyst / SME</strong> (2019 – 2025)</p>
-      <p>Achievements: Star Performer, Best Supporting Hand Award. Supported global users, conducted audits, monitored SLA breaches, escalated incidents, and provided VPN/LAN/WLAN troubleshooting.</p>
+    <div class="card">
+      <h3>Service Desk Analyst - WIPRO Limited</h3>
+      <p>Provided global support for Office 365, Windows, and network troubleshooting.</p>
+      <button class="toggle">Read More</button>
+      <div class="hidden">
+        <ul>
+          <li>Remote troubleshooting via LogMeIn, Bomgar, Teams</li>
+          <li>Active Directory & Exchange account management</li>
+          <li>Mentored new hires and conducted audits</li>
+        </ul>
+      </div>
     </div>
-    <!-- Add other jobs here -->
   </section>
 
-  <section id="projects" class="content">
+  <section id="projects">
     <h2>Home Lab Projects</h2>
     <ul>
-      <li>SOC Lab – Splunk/ELK for log ingestion, detection, and alerting</li>
-      <li>Network Virtualization & Monitoring Lab – GNS3, Wireshark, Cisco IOS</li>
-      <li>Windows Server & Active Directory Lab – AD, GPOs, DNS/DHCP</li>
-      <li>Linux Server & Network Services Lab – Ubuntu, Apache, MySQL, Samba, Ansible</li>
+      <li>Network Virtualization & Monitoring Lab</li>
+      <li>Windows Server & Active Directory Lab</li>
+      <li>Linux Server & Network Services Lab</li>
     </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:jamesbrentlachica@yahoo.com.ph">jamesbrentlachica@yahoo.com.ph</a></p>
+    <p>Phone: <a href="tel:09984488894">09984488894</a></p>
   </section>
 
   <footer>
-    <p>© 2026 James Brent L. Mañego</p>
+    <p>&copy; 2026 James Brent L. Mañego</p>
   </footer>
 
   <script src="script.js"></script>
